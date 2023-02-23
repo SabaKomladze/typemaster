@@ -1,0 +1,120 @@
+html, 
+body{
+    width: 375px;
+    height: 3007px;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+#logo{
+    margin-top: 27px;
+}
+#pre-order{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #162542;
+    width: 150px;
+    height: 48px;
+    background: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    margin-left: 200.5px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+#pre-order:hover{
+    background: #162542;
+    color: #FFFFFF;
+}
+
+.descrip h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+.descrip p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+#pre-order-now{
+    background: #F16718;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    width: 150px;
+    height: 48px;
+    margin-top: 32px;
+    cursor: pointer;
+    
+}
+#pre-order-now:hover{
+    background: #FF9B62;
+}
+.realease{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+.pre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#key1{
+   border-radius: 20px;
+   max-width: 100%;
+   margin-left: 24px;
+   margin-top: 50px;
+}
+#key2{
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    
+}
+.blur{
+    background-color: #f16718;
+    
+    height: auto;
+    position: relative;
+    left: -12.8vw;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    
+}
+#key3{
+    width: 100%;
+    height: 100%;
+}
